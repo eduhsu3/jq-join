@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>회원가입</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="wrap">
+            <form id="myForm">
+                <div class="join_box">
+                    <div class="header">
+                        <h1 class="title">회원가입</h1>
+                    </div>
+                    <div class="row">
+                        <label for="">사용자 이름</label>
+                        <input type="text" id="userName" name="USER_NAME" />
+                        <div class="error_txt" id="nameMsg"></div>
+                    </div>
+                    <div class="row">
+                        <label for="">이메일</label>
+                        <input type="email" id="userEmail" name="USER_EMAIL" />
+                        <div class="error_txt" id="emailMsg"></div>
+                    </div>
+                    <div class="row">
+                        <label for="">비밀번호</label>
+                        <input type="password" id="userPass1" name="USER_PASS_1" />
+                        <div class="error_txt" id="passMsg1"></div>
+                    </div>
+                    <div class="row">
+                        <label for="">비밀번호 확인</label>
+                        <input type="password" id="userPass2" name="USER_PASS_2" />
+                        <div class="error_txt" id="passMsg2"></div>
+                    </div>
+                    <div class="row">
+                        <strong class="ti">성별</strong>
+
+                        <div class="rdo_group">
+                            <span><input type="radio" id="userSex1" name="USER_SEX" value="male" /> <label for="userSex1">남성</label> </span>
+                            <span><input type="radio" id="userSex2" name="USER_SEX" value="female" /> <label for="userSex2">여성</label> </span>
+                            <span><input type="radio" id="userSex3" name="USER_SEX" value="etc" /> <label for="userSex3">기타</label></span>
+                        </div>
+                        <div class="error_txt" id="sexMsg"></div>
+                    </div>
+                    <div class="row">
+                        <span class="ti"><label for="agreeViewMore" id="agreeBtn">약관확인</label></span>
+                        <input type="hidden" id="agreeViewMore" />
+                        <div class="agree_txt">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam velit neque repellat dignissimos vel error deserunt iusto exercitationem doloribus iure voluptas voluptatum, molestiae nostrum? Voluptate animi natus vel error sint. Mollitia esse nemo dolorum repellat sint nesciunt libero? Similique, suscipit ut voluptatibus qui cum sit, quidem ipsa nihil sint soluta accusantium eum quia id repudiandae quas nobis tempore, excepturi atque? Laudantium, officiis
+                            quibusdam. Unde fuga deserunt necessitatibus harum eos commodi nostrum nihil ratione rem at a vero repellat modi consequatur dolores provident saepe laborum alias asperiores porro, eligendi pariatur esse! Adipisci autem non facilis reiciendis ratione repellat possimus aliquam fugit corporis, nam incidunt dolorem similique et. Expedita, sequi quo. Porro, eum fugiat iste minima quam dolores voluptatibus inventore! Corporis, quis. Eligendi nihil incidunt quaerat odit
+                            tempora quae alias illum? Facilis deserunt odit pariatur repellat omnis officia quam maiores totam, saepe voluptatum dolores, dignissimos iure itaque necessitatibus ducimus? Expedita, a atque?
+                        </div>
+                        <div class="bottom_chk"><input type="checkbox" id="userAgreeCheck" name="USER_AGREE" /><label for="userAgreeCheck">약관에 동의합니다.</label></div>
+                        <div class="error_txt" id="userAgreeMsg"></div>
+                    </div>
+                    <div class="row">
+                        <button type="submit">회원가입</button>
+                    </div>
+                    <!-- ----------------------------------------- -->
+                    <div class="print" id="printBox"></div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
