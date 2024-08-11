@@ -12,6 +12,7 @@ input,textarea{font-family: "Noto Sans KR", sans-serif; color: #333;}
 .join_box{  max-width: 400px; margin:0 auto; border-radius: 16px; padding: 20px; background-color: #fff;     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, .14); }
 
 .error_txt{ color: red; font-size: 1.4rem;}
+.error_txt .green_txt{ color: green;}
 
 .join_box .header{}
 .join_box .header .title{ padding: 10px 15px; text-align: center; font-size: 2.4rem;}
@@ -36,7 +37,7 @@ input,textarea{font-family: "Noto Sans KR", sans-serif; color: #333;}
 .row .agree_txt{ display: none; font-size: 1.4rem; padding: 15px; background-color: #ebebeb; margin-top: 10px;}
 .row .bottom_chk{ font-size: 1.5rem; margin-top: 10px;}
 
-.join_box button[type='submit']{ display: block; width: 100%; padding: 0; border: none; background-color: #03c75a; color: #fff; padding: 10px ; font-family: "Noto Sans KR", sans-serif;  font-size: 1.6rem; border-radius: 5px;}
+#submitBtn{ display: block; width: 100%; padding: 0; border: none; background-color: #03c75a; color: #fff; padding: 10px ; font-family: "Noto Sans KR", sans-serif;  font-size: 1.6rem; border-radius: 5px; cursor: pointer;}
 
 
 .print{ font-size: 1.4rem; margin-top: 20px;}
